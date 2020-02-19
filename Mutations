@@ -58,7 +58,7 @@ abrackdabra
 
 #Code
 def mutate_string(string, position, character):
-    return s[:5] + c + s[6:]
+    return s[:position] + c + s[position + 1:]
 
 if __name__ == '__main__':
     s = input()
