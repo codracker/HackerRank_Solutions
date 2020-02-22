@@ -8,8 +8,9 @@ import sys
 
 # Complete the solve function below.
 def solve(s):
-    word= s.title()
-    return word
+    Cword = s.split(' ')
+    return ' '.join((word.capitalize() for word in Cword))
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
