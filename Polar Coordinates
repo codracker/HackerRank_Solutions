@@ -1,0 +1,6 @@
+from cmath import sqrt,phase
+z= complex(input())
+distance = sqrt(pow(z.real,2) + pow(z.imag,2)).real
+phase = phase(complex(z.real,z.imag))
+print(distance)
+print(phase)
