@@ -1,0 +1,11 @@
+import numpy
+N,M= map(int,input().split())
+array= numpy.array([input().split() for _ in range(N)],int)
+Meanofarray = numpy.mean(array, axis=1)
+Varofarray = numpy.var(array, axis=0)
+Stdofarray = numpy.std(array,axis=None)
+numpy.set_printoptions(legacy='1.13')
+print (Meanofarray)
+print (Varofarray)
+print (Stdofarray)
+
