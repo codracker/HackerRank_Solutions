@@ -1,0 +1,9 @@
+import numpy
+N= int(input())
+d_matrix= numpy.array([input().split() for _ in range(N)],float)
+numpy.set_printoptions(legacy='1.13')
+print(numpy.linalg.det(d_matrix))
+
+
+
+
