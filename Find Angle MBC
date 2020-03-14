@@ -4,4 +4,3 @@ AB= int(input())
 BC= int(input())
 angle= atan(1.0*AB/BC)
 print(str(int(round(degrees(angle))))+'°')
-?
